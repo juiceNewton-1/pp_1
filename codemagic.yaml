@@ -8,7 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.hravlapi.p2papp
+        bundle_identifier: com.stoapp.pp1andr
       flutter: stable
       xcode: latest
       cocoapods: default
