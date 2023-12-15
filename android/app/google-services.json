@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "579359395041",
+    "project_id": "stock-sensepp-1and",
+    "storage_bucket": "stock-sensepp-1and.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579359395041:android:56eab8e5504e260c71bba0",
+        "android_client_info": {
+          "package_name": "com.example.stock_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6MnMQ6hU95Gf6GFbVpMV0GFSzOdb83OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579359395041:android:e313dde7bf0c8cac71bba0",
+        "android_client_info": {
+          "package_name": "com.example.stocks_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6MnMQ6hU95Gf6GFbVpMV0GFSzOdb83OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579359395041:android:d6d30ec05dc26aed71bba0",
+        "android_client_info": {
+          "package_name": "com.example.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6MnMQ6hU95Gf6GFbVpMV0GFSzOdb83OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
