@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:stocks_tracker/helpers/images/image_helper.dart';
 import 'package:stocks_tracker/service/storage/storage_service.dart';
-import 'package:stocks_tracker/widgets/elements/custom_back_button.dart';
-import 'package:stocks_tracker/widgets/elements/custom_button.dart';
-
+import 'package:stocks_tracker/widgets/components/custom_back_button.dart';
+import 'package:stocks_tracker/widgets/components/custom_button.dart';
 
 final _formKey = GlobalKey<FormState>();
 

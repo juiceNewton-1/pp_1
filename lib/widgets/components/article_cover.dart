@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
-class ArticleCover extends StatelessWidget {
+class ArtcileCover extends StatelessWidget {
   final String url;
   final double width;
   final double heigth;
-  const ArticleCover({
+  const ArtcileCover({
     super.key,
     required this.url,
     this.width = 70,

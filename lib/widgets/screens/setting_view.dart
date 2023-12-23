@@ -1,7 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stocks_tracker/helpers/images/image_helper.dart';
 import 'package:stocks_tracker/helpers/text_helper.dart';
-import 'package:stocks_tracker/widgets/elements/custom_back_button.dart';
+import 'package:stocks_tracker/widgets/components/custom_back_button.dart';
 import 'package:stocks_tracker/widgets/screens/profile.dart';
 
 class SettingView extends StatelessWidget {

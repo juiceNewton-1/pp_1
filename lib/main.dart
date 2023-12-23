@@ -12,11 +12,11 @@ import 'package:stocks_tracker/themes/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await _initialize();
-  runApp(const StocksTracker());
+  await _initApp();
+  runApp(const StockTraker());
 }
 
-Future<void> _initialize() async {
+Future<void> _initApp() async {
   try {
     await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform);
@@ -34,13 +34,12 @@ Future<void> _initialize() async {
   await ServiceLocator.setup();
 }
 
-class StocksTracker extends StatelessWidget {
-  const StocksTracker({super.key});
+class StockTraker extends StatelessWidget {
+  const StockTraker({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'StocksTracker',
       initialRoute: RouteNames.splash,
       routes: Routes.get(context),
       theme: AppTheme.light(),

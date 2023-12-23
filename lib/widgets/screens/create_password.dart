@@ -6,8 +6,7 @@ import 'package:stocks_tracker/navigation/route_names.dart';
 import 'package:stocks_tracker/service/local_auth.dart';
 import 'package:stocks_tracker/service/storage/storage_service.dart';
 import 'package:stocks_tracker/themes/custom_colors.dart';
-import 'package:stocks_tracker/widgets/elements/custom_button.dart';
-
+import 'package:stocks_tracker/widgets/components/custom_button.dart';
 
 final _formKey = GlobalKey<FormState>();
 

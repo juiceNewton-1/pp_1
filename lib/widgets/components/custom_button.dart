@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stocks_tracker/themes/custom_colors.dart';
 
-
-
 class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,

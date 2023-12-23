@@ -7,8 +7,7 @@ import 'package:stocks_tracker/navigation/route_names.dart';
 import 'package:stocks_tracker/service/database/database_keys.dart';
 import 'package:stocks_tracker/service/database/database_service.dart';
 import 'package:stocks_tracker/themes/custom_colors.dart';
-import 'package:stocks_tracker/widgets/elements/custom_page_indicator.dart';
-
+import 'package:stocks_tracker/widgets/components/custom_page_indicator.dart';
 
 class OnboardingView extends StatefulWidget {
   const OnboardingView({super.key});

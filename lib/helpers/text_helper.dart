@@ -2,7 +2,7 @@ class TextHelper {
   static const String textCreatePassword =
       'In order to use our application, you need to\ncreate a password or use Face ID.';
   static const String lastTextOnboarding =
-      'Lorem ipsum dolor sit amet consectetur.\nut risus ut iaculis neque vitae arcu.';
+      '''Let's plunge into the world of stocks\nand find out all the latest news''';
   static const String privacyText =
       '''Nguyen Trung Hieu built the Stock-sense LeApp app as a Free app. This SERVICE is provided by Nguyen Trung Hieu at no cost and is intended for use as is.
 

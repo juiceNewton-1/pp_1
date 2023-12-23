@@ -3,7 +3,7 @@ import 'package:stocks_tracker/helpers/constants.dart';
 import 'package:stocks_tracker/helpers/images/image_helper.dart';
 import 'package:stocks_tracker/models/arguments.dart';
 import 'package:stocks_tracker/navigation/route_names.dart';
-import 'package:stocks_tracker/widgets/elements/stock_card.dart';
+import 'package:stocks_tracker/widgets/components/stock_card.dart';
 import 'package:stocks_tracker/widgets/screens/favorites/controller/favorites_controller.dart';
 
 class FavoriteStocksView extends StatefulWidget {

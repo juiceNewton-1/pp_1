@@ -3,9 +3,8 @@ import 'package:stocks_tracker/helpers/data_time_helper.dart';
 import 'package:stocks_tracker/helpers/images/image_helper.dart';
 import 'package:stocks_tracker/models/arguments.dart';
 import 'package:stocks_tracker/models/news.dart';
-import 'package:stocks_tracker/widgets/elements/article_cover.dart';
-import 'package:stocks_tracker/widgets/elements/custom_back_button.dart';
-
+import 'package:stocks_tracker/widgets/components/article_cover.dart';
+import 'package:stocks_tracker/widgets/components/custom_back_button.dart';
 
 class NewView extends StatelessWidget {
   final NewViewArguments news;
@@ -83,7 +82,7 @@ class NewView extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           height: 300,
-                          child: ArticleCover(url: _article.imageUrl),
+                          child: ArtcileCover(url: _article.imageUrl),
                         ),
                       ],
                     ),

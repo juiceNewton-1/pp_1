@@ -6,8 +6,8 @@ import 'package:stocks_tracker/navigation/route_names.dart';
 import 'package:stocks_tracker/service/database/database_keys.dart';
 import 'package:stocks_tracker/service/database/database_service.dart';
 import 'package:stocks_tracker/service/remote_config_service.dart';
-import 'package:stocks_tracker/widgets/elements/custom_button.dart';
-import 'package:stocks_tracker/widgets/elements/splash_loading.dart';
+import 'package:stocks_tracker/widgets/components/custom_button.dart';
+import 'package:stocks_tracker/widgets/components/splash_loading.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 // #docregion platform_imports
 // Import for Android features.

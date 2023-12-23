@@ -8,7 +8,7 @@ import 'package:stocks_tracker/helpers/dialog_helper.dart';
 import 'package:stocks_tracker/navigation/route_names.dart';
 import 'package:stocks_tracker/service/database/database_keys.dart';
 import 'package:stocks_tracker/service/database/database_service.dart';
-import 'package:stocks_tracker/widgets/elements/splash_loading.dart';
+import 'package:stocks_tracker/widgets/components/splash_loading.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

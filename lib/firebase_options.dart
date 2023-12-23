@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyB6MnMQ6hU95Gf6GFbVpMV0GFSzOdb83OE',
-    appId: '1:579359395041:android:e313dde7bf0c8cac71bba0',
+    appId: '1:579359395041:android:d6d30ec05dc26aed71bba0',
     messagingSenderId: '579359395041',
     projectId: 'stock-sensepp-1and',
     storageBucket: 'stock-sensepp-1and.appspot.com',
@@ -59,10 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCGZb712Botw70Oh7LyP0O0Cs5fKD7J--U',
-    appId: '1:579359395041:ios:979d6e166239926271bba0',
+    appId: '1:579359395041:ios:9295ab081fdee53b71bba0',
     messagingSenderId: '579359395041',
     projectId: 'stock-sensepp-1and',
     storageBucket: 'stock-sensepp-1and.appspot.com',
-    iosBundleId: 'com.example.stocksTracker',
+    iosBundleId: 'com.example.tracker',
   );
 }

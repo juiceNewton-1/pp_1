@@ -1,4 +1,5 @@
 import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stocks_tracker/helpers/constants.dart';
@@ -7,8 +8,8 @@ import 'package:stocks_tracker/models/arguments.dart';
 import 'package:stocks_tracker/models/stock.dart';
 import 'package:stocks_tracker/navigation/route_names.dart';
 import 'package:stocks_tracker/themes/custom_colors.dart';
-import 'package:stocks_tracker/widgets/elements/custom_page_indicator.dart';
-import 'package:stocks_tracker/widgets/elements/stock_card.dart';
+import 'package:stocks_tracker/widgets/components/custom_page_indicator.dart';
+import 'package:stocks_tracker/widgets/components/stock_card.dart';
 import 'package:stocks_tracker/widgets/screens/stocks/controller/stocks_controller.dart';
 
 class StocksView extends StatefulWidget {
