@@ -40,6 +40,7 @@ class StockTraker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Blaz - e’stock-sense LeApp',
       initialRoute: RouteNames.splash,
       routes: Routes.get(context),
       theme: AppTheme.light(),

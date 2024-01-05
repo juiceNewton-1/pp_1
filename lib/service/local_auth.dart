@@ -11,15 +11,24 @@ class LocalAuth {
   Future<bool> authenticate() async {
     try {
       if (!await _canAuthenticate()) return false;
-      return await _auth.authenticate(
-          localizedReason: 'Use Face If to authenticate',
-          options: const AuthenticationOptions(
-            useErrorDialogs: true,
-            stickyAuth: true,
-            biometricOnly: true,
-          ));
+      bool authenticated = await _auth.authenticate(
+        localizedReason: 'Authenticate using Face ID',
+        options: const AuthenticationOptions(
+          useErrorDialogs: true,
+          stickyAuth: true,
+          biometricOnly: true,
+        ),
+      );
+
+      if (authenticated) {
+        print('Authentication successful');
+        return true;
+      } else {
+        print('Authentication failed or canceled by the user');
+        return false;
+      }
     } on PlatformException catch (e) {
-      debugPrint('error $e');
+      debugPrint('Error during authentication: $e');
       return false;
     }
   }

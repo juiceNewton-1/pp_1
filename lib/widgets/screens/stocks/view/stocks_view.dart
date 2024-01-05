@@ -73,7 +73,7 @@ class _StocksViewState extends State<StocksView> {
                     }
                   },
                 ),
-              )
+              ),
             ],
           ),
         ),
@@ -138,7 +138,6 @@ class _LoadedState extends StatelessWidget {
     return NotificationListener<ScrollEndNotification>(
       onNotification: (notification) {
         final metrices = notification.metrics;
-
         if (metrices.pixels >= metrices.maxScrollExtent &&
             !isNextPageLoading &&
             stocks.length < Constants.stockSymbols.length) {
@@ -148,9 +147,7 @@ class _LoadedState extends StatelessWidget {
         return false;
       },
       child: ListView.separated(
-        padding: const EdgeInsets.only(
-          top: 20,
-        ),
+        padding: const EdgeInsets.only(top: 20),
         itemBuilder: (context, index) {
           final isLastPosition = index == stocks.length;
           if (isLastPosition) {
@@ -234,9 +231,7 @@ class FrameNews extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(width: 15),
-                    Expanded(
-                      child: ImageHelper.getImage(_getImage(index)),
-                    ),
+                    Expanded(child: ImageHelper.getImage(_getImage(index))),
                   ],
                 ),
               ),
